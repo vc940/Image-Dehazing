@@ -35,8 +35,10 @@ The generator follows a **U-Net** architecture, while the discriminator is an **
 ## Installation
 ```bash
 git clone https://github.com/vc940/Image-Dehazing
-cd pix2pix-image-dehazing
+cd Image-Dehazing
 pip install -r requirements.txt
+cd src/Model
+wget https://drive.google.com/file/d/1miJjhN3fsGedLS4RIYumMOcFClEZ3x6o/view?usp=sharing
 ```
 ## Dataset
 Reside[Standard] Dataset.
