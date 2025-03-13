@@ -4,7 +4,33 @@ This project implements a **Pix2Pix**-based **Conditional GAN (cGAN)** for Image
 The generator follows a **U-Net** architecture, while the discriminator is an **aPatchGAN**, which helps in distinguishing between real and generated haze-free images.
 
 ## Sample Results
+  * Results after training **10** epochs (2 hours) on 2  **T4 GPU's**
+    <br>
+  Randomly picked images from google
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/train.jpg" width="300" height="200"/>
+  >-------->-------->
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/train dehaze.jpg" width="300" height="200"/>
+</p>
 
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/hazyy.jpg" width="300" height="200"/>
+  >-------->-------->
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/hazyy dehaze.jpg" width="300" height="200"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/city.jpeg" width="300" height="200"/>
+  >-------->-------->
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/city dehaze.jpg" width="300" height="200"/>
+</p>
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/caption.jpg" width="300" height="500"/>
+  >-------->-------->
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/captiondehaze1.png" width="300" height="500"/>
+</p>
+
+*Note*: Trained only 10 epochs due to lack of computational resources,Obviously result's will improve if i'll train it more.
 
 ## Installation
 ```bash
