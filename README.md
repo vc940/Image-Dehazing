@@ -6,29 +6,33 @@ The generator follows a **U-Net** architecture, while the discriminator is an **
 ## Sample Results
   * Results after training **10** epochs (2 hours) on 2  **T4 GPU's**
     <br>
-  Randomly picked images from google
-<p align="center">
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/train.jpg" width="300" height="200"/>
-  >-------->-------->
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/train dehaze.jpg" width="300" height="200"/>
-</p>
+Test Inference on O-Haze Dataset
 
 <p align="center">
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/hazyy.jpg" width="300" height="200"/>
-  >-------->-------->
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/hazyy dehaze.jpg" width="300" height="200"/>
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/output/dehazed16.png" width="1800" height="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/output/dehazed29.png" width="1800" height="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/output/dehazed28.png" width="1800" height="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/output/dehazed14.png" width="1800" height="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/output/dehazed9.png" width="1800" height="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/output/dehazed8.png" width="1800" height="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/vc940/Image-Dehazing/blob/main/output/dehazed39.png" width="1800" height="600"/>
 </p>
 
-<p align="center">
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/city.jpeg" width="300" height="200"/>
-  >-------->-------->
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/city dehaze.jpg" width="300" height="200"/>
-</p>
-<p align="center">
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/caption.jpg" width="300" height="500"/>
-  >-------->-------->
-  <img src="https://github.com/vc940/Image-Dehazing/blob/main/captiondehaze1.png" width="300" height="500"/>
-</p>
+More Examples can be seen in <a href="https://github.com/vc940/Image-Dehazing/blob/main/output">Output</a>
+
+
 
 *Note*: Trained only 10 epochs due to lack of computational resources,Obviously result's will improve if i'll train it more.
 
