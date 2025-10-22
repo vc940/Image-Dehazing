@@ -1,7 +1,7 @@
 # Image Dehazing
 
 This project implements a **Pix2Pix**-based **Conditional GAN (cGAN)** for Image Dehazing. 
-The generator follows a **U-Net** architecture, while the discriminator is an **aPatchGAN**, which helps in distinguishing between real and generated haze-free images.
+The generator follows a **U-Net** architecture, while the discriminator is an **PatchGAN**, which helps in distinguishing between real and generated haze-free images.
 
 ## Sample Results
   * Results after training **10** epochs (2 hours) on 2  **T4 GPU's**
